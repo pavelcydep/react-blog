@@ -1,0 +1,15 @@
+.popup-image__content {
+  width: 80vh;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 10px;
+  position: fixed;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  padding: 34px 36px;
+  
+}
+
+
+
+  
