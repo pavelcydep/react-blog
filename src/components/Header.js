@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from '../image/logo.svg';
+import Typography from '@mui/material/Typography';
+
 function Header() {
   return (
-    
-    <header className="header root__section">
-    <img src={logo} alt="mesto logo" className="logo"></img>
-  </header>
-
-    
+      <header className="App-header">
+      <Typography gutterBottom variant="h5" component="div">
+         Цитаты от Гомера Симпсона
+          </Typography>
+      </header>
   );
 }
-  
+
 export default Header;
