@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mestoCardReact/static/css/main.01974384.chunk.css",
+    "main.js": "/mestoCardReact/static/js/main.975983bc.chunk.js",
+    "main.js.map": "/mestoCardReact/static/js/main.975983bc.chunk.js.map",
+    "runtime-main.js": "/mestoCardReact/static/js/runtime-main.51b8d4f0.js",
+    "runtime-main.js.map": "/mestoCardReact/static/js/runtime-main.51b8d4f0.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/mestoCardReact/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.82e401c7.chunk.js": "/mestoCardReact/static/js/2.82e401c7.chunk.js",
+    "static/js/2.82e401c7.chunk.js.map": "/mestoCardReact/static/js/2.82e401c7.chunk.js.map",
+    "static/js/3.c616c820.chunk.js": "/mestoCardReact/static/js/3.c616c820.chunk.js",
+    "static/js/3.c616c820.chunk.js.map": "/mestoCardReact/static/js/3.c616c820.chunk.js.map",
+    "index.html": "/mestoCardReact/index.html",
+    "static/css/2.d8cb5cde.chunk.css.map": "/mestoCardReact/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.01974384.chunk.css.map": "/mestoCardReact/static/css/main.01974384.chunk.css.map",
+    "static/js/2.82e401c7.chunk.js.LICENSE.txt": "/mestoCardReact/static/js/2.82e401c7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51b8d4f0.js",
+    "static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.82e401c7.chunk.js",
+    "static/css/main.01974384.chunk.css",
+    "static/js/main.975983bc.chunk.js"
+  ]
+}
