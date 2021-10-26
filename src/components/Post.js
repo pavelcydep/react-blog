@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import {posts} from "../shared/posts";
 import {amounghtPost} from "../shared/utils";
 import { PostItem } from './PostItem';
+import {AddPostForm} from './AddPostForm';
 import '../components/PlaceList.css';
 export class  Post extends Component{
    
 state={
-    showBlog:true,
+    showBlog:false,
     //беру из local
     blogArr: JSON.parse(localStorage.getItem('blogPost')) || posts
 }
@@ -20,8 +21,13 @@ likePost=pos=>{
 }
 toggleBlog=()=>{
     this.setState({
-        showBlog:!this.state.showBlog
+        showBlog:true
     })
+}
+    toggleBlogClose=()=>{
+        this.setState({
+            showBlog:false
+        })
 }
  deletePost=pos=>{
     const temp=[...this.state.blogArr]; 
@@ -42,25 +48,28 @@ render(){
           likePost={()=>this.likePost(pos)}
           deletePost={()=>this.deletePost(pos)}
           image={item.image}
+         
           />
         )
     })
 
   return (
       <>
-       <button className="btn" onClick={this.toggleBlog}>{this.state.showBlog ? "Скрыть" : "Показать"}</button>
-      {
-      this.state.showBlog ?
-      <>
+     <button className="btn" onClick={this.toggleBlog}>Создать пост</button>
+     {
+         this.state.showBlog ?
+        <>
+        <AddPostForm  toggleBlogClose={this.toggleBlogClose}/>
+    </>:null}
+      
+         <>
       <div className="places-list">
+      
       {blogPost}
-     
       </div>
-      </>
-      : null
-      }
-
-</>
+     </>
+     </>
   );
+
 }
 }
