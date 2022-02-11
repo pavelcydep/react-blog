@@ -10,7 +10,7 @@
 
 ### Склонировать проект на ПК:
 
-    git clone 
+    git clone https://github.com/pavelcydep/react-blog.git
  
 
 
