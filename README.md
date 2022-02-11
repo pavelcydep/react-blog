@@ -1,7 +1,7 @@
 Демо:https://pavelcydep.github.io/react-blog/
 
 
-![alt text](bloggif_608a8cffef916.gif)
+![alt text](src/images/blog.gif)
 
 News Explorer
 =============
